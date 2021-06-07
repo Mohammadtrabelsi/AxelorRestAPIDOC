@@ -1,0 +1,867 @@
+{
+	"info": {
+		"_postman_id": "9b90dab2-32e9-4626-8826-f6cc3c9bcb08",
+		"name": "axelor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "com.axelor.apps.base.db.Partner ",
+			"item": [
+				{
+					"name": "GET ALL",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"status\": 0,\n    \"data\": \n        {\n            \"carrierPartner\": null,\n            \"expectedRealisationDate\": null,\n            \"periodicityTypeSelect\": 2,\n            \"mainInvoicingAddressStr\": \"\",\n            \"deliveryCondition\": null,\n            \"deliveryAddress\": null,\n            \"nextInvoicingEndPeriodDate\": null,\n            \"salemanUser\": {\n                \"code\": \"admin\",\n                \"fullName\": \"Admin\",\n                \"id\": 1,\n                \"$version\": 3\n            },\n            \"opportunity\": null,\n            \"updatedOn\": \"2021-06-02T14:52:38.644Z\",\n            \"companyCostTotal\": \"0.00\",\n            \"version\": 3,\n            \"attrs\": \"{}\",\n            \"isToPrintLineSubTotal\": false,\n            \"externalReference\": null,\n            \"invoicedFirstDate\": null,\n            \"template\": false,\n            \"currentContractPeriodEndDate\": null,\n            \"confirmationDateTime\": null,\n            \"saleOrderSeq\": \"001\",\n            \"stockLocation\": null,\n            \"advancePaymentList\": [],\n            \"createdByInterco\": false,\n            \"numberOfPeriods\": 1,\n            \"contractPeriodInMonths\": 0,\n            \"createdOn\": \"2021-06-02T14:06:11.525Z\",\n            \"timetableList\": [],\n            \"saleOrderScheduleLineList\": [],\n            \"cancelReasonStr\": null,\n            \"isIspmRequired\": false,\n            \"currency\": {\n                \"code\": \"AUD\",\n                \"name\": \"Australian Dollar\",\n                \"id\": 8,\n                \"$version\": 0\n            },\n            \"contactPartner\": null,\n            \"cancelReason\": null,\n            \"deliveryDate\": null,\n            \"totalCostPrice\": \"0.00\",\n            \"tradingName\": null,\n            \"blockedOnCustCreditExceed\": false,\n            \"subscriptionComment\": null,\n            \"stockMoveList\": [],\n            \"hideDiscount\": false,\n            \"team\": null,\n            \"companyBankDetails\": null,\n            \"statusSelect\": 2,\n            \"standardDelay\": 0,\n            \"importId\": null,\n            \"specificNotes\": null,\n            \"manualUnblock\": false,\n            \"internalNote\": null,\n            \"saleOrderLineTaxList\": [],\n            \"orderNumber\": null,\n            \"isNeedingConformityCertificate\": false,\n            \"companyExTaxTotal\": \"0.00\",\n            \"advanceTotal\": \"0.00\",\n            \"taxTotal\": \"0.00\",\n            \"project\": null,\n            \"totalGrossMargin\": \"0.00\",\n            \"noticePeriodInDays\": 0,\n            \"productionNote\": null,\n            \"hasSubLineDefaultValue\": false,\n            \"freightCarrierMode\": null,\n            \"selected\": false,\n            \"isTacitAgreement\": false,\n            \"inTaxTotal\": \"0.00\",\n            \"orderBeingEdited\": false,\n            \"updatedBy\": {\n                \"code\": \"admin\",\n                \"fullName\": \"Admin\",\n                \"id\": 1,\n                \"$version\": 3\n            },\n            \"markup\": \"0.00\",\n            \"contractStartDate\": null,\n            \"subscriptionText\": null,\n            \"nextInvoicingDate\": null,\n            \"creationDate\": \"2021-06-02\",\n            \"mainInvoicingAddress\": null,\n            \"saleOrderLineList\": [],\n            \"templateUser\": null,\n            \"clientPartner\": {\n                \"fullName\": \"T000001 - Sirine TRABELSI\",\n                \"id\": 1,\n                \"$version\": 23\n            },\n            \"electronicSignature\": null,\n            \"incoterm\": null,\n            \"saleOrderTypeSelect\": 1,\n            \"endOfValidityDate\": null,\n            \"orderDate\": null,\n            \"amountToBeSpreadOverTheTimetable\": \"0.00\",\n            \"importOrigin\": null,\n            \"nextInvPeriodStartDate\": null,\n            \"description\": null,\n            \"forwarderPartner\": null,\n            \"inAti\": false,\n            \"batchSet\": [],\n            \"priceList\": null,\n            \"duration\": null,\n            \"marginRate\": \"0.00\",\n            \"printingSettings\": null,\n            \"directOrderLocation\": false,\n            \"company\": {\n                \"code\": \"14651146152465\",\n                \"name\": \"Portainer\",\n                \"id\": 1,\n                \"$version\": 2\n            },\n            \"deliveryAddressStr\": \"\",\n            \"shipmentDate\": null,\n            \"accountedRevenue\": \"0.00\",\n            \"nextInvoicingStartPeriodDate\": null,\n            \"paymentCondition\": null,\n            \"paymentMode\": null,\n            \"specificPackage\": null,\n            \"contractEndDate\": null,\n            \"fullName\": \"001-Sirine\",\n            \"exTaxTotal\": \"0.00\",\n            \"shipmentMode\": null,\n            \"versionNumber\": 1,\n            \"amountInvoiced\": \"0.00\",\n            \"confirmedByUser\": null,\n            \"createdBy\": {\n                \"code\": \"admin\",\n                \"fullName\": \"Admin\",\n                \"id\": 1,\n                \"$version\": 3\n            },\n            \"deliveryState\": 1,\n            \"interco\": false\n        }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://replacewithAxelorAdress:replacewithAxelorPort/ws/rest/com.axelor.apps.base.db.Partner",
+							"protocol": "http",
+							"host": [
+								replacewithAxelorAdress
+							],
+							"port": "replacewithAxelorPort",
+							"path": [
+								"ws",
+								"rest",
+								"com.axelor.apps.base.db.Partner"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"status\": 0,\n    \"data\": \n        {\n            \"carrierPartner\": null,\n            \"expectedRealisationDate\": null,\n            \"periodicityTypeSelect\": 2,\n            \"mainInvoicingAddressStr\": \"\",\n            \"deliveryCondition\": null,\n            \"deliveryAddress\": null,\n            \"nextInvoicingEndPeriodDate\": null,\n            \"salemanUser\": {\n                \"code\": \"admin\",\n                \"fullName\": \"Admin\",\n                \"id\": 1,\n                \"$version\": 3\n            },\n            \"opportunity\": null,\n            \"updatedOn\": \"2021-06-02T14:52:38.644Z\",\n            \"companyCostTotal\": \"0.00\",\n            \"version\": 3,\n            \"attrs\": \"{}\",\n            \"isToPrintLineSubTotal\": false,\n            \"externalReference\": null,\n            \"invoicedFirstDate\": null,\n            \"template\": false,\n            \"currentContractPeriodEndDate\": null,\n            \"confirmationDateTime\": null,\n            \"saleOrderSeq\": \"001\",\n            \"stockLocation\": null,\n            \"advancePaymentList\": [],\n            \"createdByInterco\": false,\n            \"numberOfPeriods\": 1,\n            \"contractPeriodInMonths\": 0,\n            \"createdOn\": \"2021-06-02T14:06:11.525Z\",\n            \"timetableList\": [],\n            \"saleOrderScheduleLineList\": [],\n            \"cancelReasonStr\": null,\n            \"isIspmRequired\": false,\n            \"currency\": {\n                \"code\": \"AUD\",\n                \"name\": \"Australian Dollar\",\n                \"id\": 8,\n                \"$version\": 0\n            },\n            \"contactPartner\": null,\n            \"cancelReason\": null,\n            \"deliveryDate\": null,\n            \"totalCostPrice\": \"0.00\",\n            \"tradingName\": null,\n            \"blockedOnCustCreditExceed\": false,\n            \"subscriptionComment\": null,\n            \"stockMoveList\": [],\n            \"hideDiscount\": false,\n            \"team\": null,\n            \"companyBankDetails\": null,\n            \"statusSelect\": 2,\n            \"standardDelay\": 0,\n            \"importId\": null,\n            \"specificNotes\": null,\n            \"manualUnblock\": false,\n            \"internalNote\": null,\n            \"saleOrderLineTaxList\": [],\n            \"orderNumber\": null,\n            \"isNeedingConformityCertificate\": false,\n            \"companyExTaxTotal\": \"0.00\",\n            \"advanceTotal\": \"0.00\",\n            \"taxTotal\": \"0.00\",\n            \"project\": null,\n            \"totalGrossMargin\": \"0.00\",\n            \"noticePeriodInDays\": 0,\n            \"productionNote\": null,\n            \"hasSubLineDefaultValue\": false,\n            \"freightCarrierMode\": null,\n            \"selected\": false,\n            \"isTacitAgreement\": false,\n            \"inTaxTotal\": \"0.00\",\n            \"orderBeingEdited\": false,\n            \"updatedBy\": {\n                \"code\": \"admin\",\n                \"fullName\": \"Admin\",\n                \"id\": 1,\n                \"$version\": 3\n            },\n            \"markup\": \"0.00\",\n            \"contractStartDate\": null,\n            \"subscriptionText\": null,\n            \"nextInvoicingDate\": null,\n            \"creationDate\": \"2021-06-02\",\n            \"mainInvoicingAddress\": null,\n            \"saleOrderLineList\": [],\n            \"templateUser\": null,\n            \"clientPartner\": {\n                \"fullName\": \"T000001 - Sirine TRABELSI\",\n                \"id\": 1,\n                \"$version\": 23\n            },\n            \"electronicSignature\": null,\n            \"incoterm\": null,\n            \"saleOrderTypeSelect\": 1,\n            \"endOfValidityDate\": null,\n            \"orderDate\": null,\n            \"amountToBeSpreadOverTheTimetable\": \"0.00\",\n            \"importOrigin\": null,\n            \"nextInvPeriodStartDate\": null,\n            \"description\": null,\n            \"forwarderPartner\": null,\n            \"inAti\": false,\n            \"batchSet\": [],\n            \"priceList\": null,\n            \"duration\": null,\n            \"marginRate\": \"0.00\",\n            \"printingSettings\": null,\n            \"directOrderLocation\": false,\n            \"company\": {\n                \"code\": \"14651146152465\",\n                \"name\": \"Portainer\",\n                \"id\": 1,\n                \"$version\": 2\n            },\n            \"deliveryAddressStr\": \"\",\n            \"shipmentDate\": null,\n            \"accountedRevenue\": \"0.00\",\n            \"nextInvoicingStartPeriodDate\": null,\n            \"paymentCondition\": null,\n            \"paymentMode\": null,\n            \"specificPackage\": null,\n            \"contractEndDate\": null,\n            \"fullName\": \"001-Sirine\",\n            \"exTaxTotal\": \"0.00\",\n            \"shipmentMode\": null,\n            \"versionNumber\": 1,\n            \"amountInvoiced\": \"0.00\",\n            \"confirmedByUser\": null,\n            \"createdBy\": {\n                \"code\": \"admin\",\n                \"fullName\": \"Admin\",\n                \"id\": 1,\n                \"$version\": 3\n            },\n            \"deliveryState\": 1,\n            \"interco\": false\n        }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://replacewithAxelorAdress:replacewithAxelorPort/ws/rest/com.axelor.apps.base.db.Partner/1",
+							"protocol": "http",
+							"host": [
+								replacewithAxelorAdress
+							],
+							"port": "replacewithAxelorPort",
+							"path": [
+								"ws",
+								"rest",
+								"com.axelor.apps.base.db.Partner",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CREATE",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "X-Requested-With",
+								"type": "text",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "X-CSRF-Token",
+								"type": "text",
+								"value": "D4886FC561695D41C77A3B3238E9D8FB"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"data\":\n        {\n            \"name\": \"ALI\",\n            \"outPaymentMode\": null,\n            \"partnerAttrs\": null,\n            \"umrList\": [],\n            \"invoiceSendingFormatSelect\": \"emailpaper\",\n            \"factorizedCustomer\": false,\n            \"isContact\": false,\n            \"paymentDelay\": \"0.00\",\n            \"importOrigin\": null,\n            \"industrySector\": null,\n            \"supplierArrivalProductQty\": \"0.00\",\n            \"activeUmr\": null,\n            \"timeSlot\": null,\n            \"description\": null,\n            \"freightCarrierModeList\": [],\n            \"inPaymentMode\": null,\n            \"createdOn\": \"2021-06-02T09:02:09.253Z\",\n            \"batchSet\": [],\n            \"purchaseOrderInformation\": null,\n            \"webSite\": null,\n            \"chargeBackPurchase\": \"100.00\",\n            \"sellerCode\": null,\n            \"freightCarrierCustomerAccountNumberList\": [],\n            \"partnerSeq\": \"T0001500\",\n            \"isIspmRequired\": false,\n            \"isFactor\": false,\n            \"registrationCode\": null,\n            \"currency\": null,\n            \"department\": null,\n            \"saleOrderInformation\": null,\n            \"deliveryDelay\": 0,\n            \"supplierCatalogList\": [],\n            \"isProspect\": false,\n            \"paymentCondition\": null,\n            \"contactAttrs\": null,\n            \"parentPartner\": null,\n            \"fullName\": \"T000001 - Sirine TRABELSI\",\n            \"reportsTo\": null,\n            \"shipmentMode\": null,\n            \"team\": null,\n            \"picture\": {\n                \"fileName\": \"codeigniter10-1.png\",\n                \"id\": 37,\n                \"$version\": 2\n            },\n            \"saleTurnover\": 0,\n            \"bankDetailsList\": [],\n            \"isCustomer\": true,\n            \"importId\": null,\n            \"supplierQualityRatingSelect\": \"0.00\",\n            \"fiscalPosition\": null,\n            \"analyticDistributionTemplate\": null\n        }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://replacewithAxelorAdress:replacewithAxelorPort/ws/rest/com.axelor.apps.base.db.Partner",
+							"protocol": "http",
+							"host": [
+								replacewithAxelorAdress
+							],
+							"port": "replacewithAxelorPort",
+							"path": [
+								"ws",
+								"rest",
+								"com.axelor.apps.base.db.Partner"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"status\": 0,\n    \"data\": \n        {\n            \"carrierPartner\": null,\n            \"expectedRealisationDate\": null,\n            \"periodicityTypeSelect\": 2,\n            \"mainInvoicingAddressStr\": \"\",\n            \"deliveryCondition\": null,\n            \"deliveryAddress\": null,\n            \"nextInvoicingEndPeriodDate\": null,\n            \"salemanUser\": {\n                \"code\": \"admin\",\n                \"fullName\": \"Admin\",\n                \"id\": 1,\n                \"$version\": 3\n            },\n            \"opportunity\": null,\n            \"updatedOn\": \"2021-06-02T14:52:38.644Z\",\n            \"companyCostTotal\": \"0.00\",\n            \"version\": 3,\n            \"attrs\": \"{}\",\n            \"isToPrintLineSubTotal\": false,\n            \"externalReference\": null,\n            \"invoicedFirstDate\": null,\n            \"template\": false,\n            \"currentContractPeriodEndDate\": null,\n            \"confirmationDateTime\": null,\n            \"saleOrderSeq\": \"001\",\n            \"stockLocation\": null,\n            \"advancePaymentList\": [],\n            \"createdByInterco\": false,\n            \"numberOfPeriods\": 1,\n            \"contractPeriodInMonths\": 0,\n            \"createdOn\": \"2021-06-02T14:06:11.525Z\",\n            \"timetableList\": [],\n            \"saleOrderScheduleLineList\": [],\n            \"cancelReasonStr\": null,\n            \"isIspmRequired\": false,\n            \"currency\": {\n                \"code\": \"AUD\",\n                \"name\": \"Australian Dollar\",\n                \"id\": 8,\n                \"$version\": 0\n            },\n            \"contactPartner\": null,\n            \"cancelReason\": null,\n            \"deliveryDate\": null,\n            \"totalCostPrice\": \"0.00\",\n            \"tradingName\": null,\n            \"blockedOnCustCreditExceed\": false,\n            \"subscriptionComment\": null,\n            \"stockMoveList\": [],\n            \"hideDiscount\": false,\n            \"team\": null,\n            \"companyBankDetails\": null,\n            \"statusSelect\": 2,\n            \"standardDelay\": 0,\n            \"importId\": null,\n            \"specificNotes\": null,\n            \"manualUnblock\": false,\n            \"internalNote\": null,\n            \"saleOrderLineTaxList\": [],\n            \"orderNumber\": null,\n            \"isNeedingConformityCertificate\": false,\n            \"companyExTaxTotal\": \"0.00\",\n            \"advanceTotal\": \"0.00\",\n            \"taxTotal\": \"0.00\",\n            \"project\": null,\n            \"totalGrossMargin\": \"0.00\",\n            \"noticePeriodInDays\": 0,\n            \"productionNote\": null,\n            \"hasSubLineDefaultValue\": false,\n            \"freightCarrierMode\": null,\n            \"selected\": false,\n            \"isTacitAgreement\": false,\n            \"inTaxTotal\": \"0.00\",\n            \"orderBeingEdited\": false,\n            \"updatedBy\": {\n                \"code\": \"admin\",\n                \"fullName\": \"Admin\",\n                \"id\": 1,\n                \"$version\": 3\n            },\n            \"markup\": \"0.00\",\n            \"contractStartDate\": null,\n            \"subscriptionText\": null,\n            \"nextInvoicingDate\": null,\n            \"creationDate\": \"2021-06-02\",\n            \"mainInvoicingAddress\": null,\n            \"saleOrderLineList\": [],\n            \"templateUser\": null,\n            \"clientPartner\": {\n                \"fullName\": \"T000001 - Sirine TRABELSI\",\n                \"id\": 1,\n                \"$version\": 23\n            },\n            \"electronicSignature\": null,\n            \"incoterm\": null,\n            \"saleOrderTypeSelect\": 1,\n            \"endOfValidityDate\": null,\n            \"orderDate\": null,\n            \"amountToBeSpreadOverTheTimetable\": \"0.00\",\n            \"importOrigin\": null,\n            \"nextInvPeriodStartDate\": null,\n            \"description\": null,\n            \"forwarderPartner\": null,\n            \"inAti\": false,\n            \"batchSet\": [],\n            \"priceList\": null,\n            \"duration\": null,\n            \"marginRate\": \"0.00\",\n            \"printingSettings\": null,\n            \"directOrderLocation\": false,\n            \"company\": {\n                \"code\": \"14651146152465\",\n                \"name\": \"Portainer\",\n                \"id\": 1,\n                \"$version\": 2\n            },\n            \"deliveryAddressStr\": \"\",\n            \"shipmentDate\": null,\n            \"accountedRevenue\": \"0.00\",\n            \"nextInvoicingStartPeriodDate\": null,\n            \"paymentCondition\": null,\n            \"paymentMode\": null,\n            \"specificPackage\": null,\n            \"contractEndDate\": null,\n            \"fullName\": \"001-Sirine\",\n            \"exTaxTotal\": \"0.00\",\n            \"shipmentMode\": null,\n            \"versionNumber\": 1,\n            \"amountInvoiced\": \"0.00\",\n            \"confirmedByUser\": null,\n            \"createdBy\": {\n                \"code\": \"admin\",\n                \"fullName\": \"Admin\",\n                \"id\": 1,\n                \"$version\": 3\n            },\n            \"deliveryState\": 1,\n            \"interco\": false\n        }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://replacewithAxelorAdress:replacewithAxelorPort/ws/rest/com.axelor.apps.base.db.Partner/1",
+							"protocol": "http",
+							"host": [
+								replacewithAxelorAdress
+							],
+							"port": "replacewithAxelorPort",
+							"path": [
+								"ws",
+								"rest",
+								"com.axelor.apps.base.db.Partner",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "com.axelor.apps.sale.db.SaleOrder",
+			"item": [
+				{
+					"name": "GET ALL",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"admin\",\n  \"password\" : \"admin\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://replacewithAxelorAdress:replacewithAxelorPort/ws/rest/com.axelor.apps.sale.db.SaleOrder",
+							"protocol": "http",
+							"host": [
+								replacewithAxelorAdress
+							],
+							"port": "replacewithAxelorPort",
+							"path": [
+								"ws",
+								"rest",
+								"com.axelor.apps.sale.db.SaleOrder"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"admin\",\n  \"password\" : \"admin\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://replacewithAxelorAdress:replacewithAxelorPort/ws/rest/com.axelor.apps.sale.db.SaleOrder/55",
+							"protocol": "http",
+							"host": [
+								replacewithAxelorAdress
+							],
+							"port": "replacewithAxelorPort",
+							"path": [
+								"ws",
+								"rest",
+								"com.axelor.apps.sale.db.SaleOrder",
+								"55"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CREATE",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest",
+								"type": "text"
+							},
+							{
+								"key": "X-CSRF-Token",
+								"value": "08ADF829DAB97239FFB4555F8786A2E4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"data\": \n        {    \"clientPartner\": {\n                \"fullName\": \"T000001 - Sirine TRABELSI\",\n                \"id\": 1,\n                \"$version\": 26\n            },\n                        \"company\": {\n                \"code\": \"14651146152465\",\n                \"name\": \"Portainer\",\n                \"id\": 1,\n                \"$version\": 2\n            },\n                 \"currency\": {\n                \"code\": \"AUD\",\n                \"name\": \"Australian Dollar\",\n                \"id\": 8,\n                \"$version\": 0\n            },\n               \"saleOrderLineList\": [\n                {\n                    \"fullName\": \"025-Car and bike\",\n                    \"id\": 38,\n                    \"$version\": 2\n                },\n                {\n                    \"fullName\": \"025-AJAX\",\n                    \"id\": 39,\n                    \"$version\": 2\n                }\n            ],\n            \"isToPrintLineSubTotal\": false,\n            \"externalReference\": null,\n            \"invoicedFirstDate\": null,\n            \"template\": false,\n            \"currentContractPeriodEndDate\": null,\n            \"confirmationDateTime\": null,\n            \"saleOrderSeq\": \"006\",\n            \"stockLocation\": null,\n            \"advancePaymentList\": [],\n            \"createdByInterco\": false,\n            \"numberOfPeriods\": 1,\n            \"contractPeriodInMonths\": 0,\n            \"createdOn\": \"2021-06-02T14:06:11.525Z\",\n            \"timetableList\": [],\n            \"saleOrderScheduleLineList\": [],\n            \"cancelReasonStr\": null,\n            \"isIspmRequired\": false,\n            \"contactPartner\": null,\n            \"cancelReason\": null,\n            \"deliveryDate\": null,\n            \"totalCostPrice\": \"0.00\",\n            \"tradingName\": null,\n            \"blockedOnCustCreditExceed\": false,\n            \"subscriptionComment\": null,\n            \"stockMoveList\": [],\n            \"hideDiscount\": false,\n            \"team\": null,\n            \"companyBankDetails\": null,\n            \"statusSelect\": 2,\n            \"standardDelay\": 0,\n            \"importId\": null,\n            \"specificNotes\": null,\n            \"manualUnblock\": false,\n            \"internalNote\": null,\n            \"saleOrderLineTaxList\": [],\n            \"orderNumber\": null,\n            \"isNeedingConformityCertificate\": false,\n            \"companyExTaxTotal\": \"96.00\",\n            \"advanceTotal\": \"0.00\",\n            \"taxTotal\": \"0.00\",\n            \"project\": null,\n            \"totalGrossMargin\": \"0.00\",\n            \"noticePeriodInDays\": 0,\n            \"productionNote\": null,\n            \"hasSubLineDefaultValue\": false,\n            \"freightCarrierMode\": null,\n            \"selected\": false,\n            \"isTacitAgreement\": false,\n            \"inTaxTotal\": \"96.00\",\n            \"orderBeingEdited\": false,\n            \"markup\": \"0.00\",\n            \"contractStartDate\": null,\n            \"subscriptionText\": null,\n            \"nextInvoicingDate\": null,\n            \"creationDate\": \"2021-06-02\",\n            \"mainInvoicingAddress\": null,\n            \"saleOrderLineList\": [],\n            \"templateUser\": null,\n            \"electronicSignature\": null,\n            \"incoterm\": null,\n            \"saleOrderTypeSelect\": 1,\n            \"endOfValidityDate\": null,\n            \"orderDate\": null,\n            \"amountToBeSpreadOverTheTimetable\": \"0.00\",\n            \"importOrigin\": null,\n            \"nextInvPeriodStartDate\": null,\n            \"description\": null,\n            \"forwarderPartner\": null,\n            \"inAti\": false,\n            \"batchSet\": [],\n            \"priceList\": null,\n            \"duration\": null,\n            \"marginRate\": \"0.00\",\n            \"printingSettings\": null,\n            \"directOrderLocation\": false,\n            \"deliveryAddressStr\": \"\",\n            \"shipmentDate\": null,\n            \"accountedRevenue\": \"0.00\",\n            \"nextInvoicingStartPeriodDate\": null,\n            \"paymentCondition\": null,\n            \"paymentMode\": null,\n            \"specificPackage\": null,\n            \"contractEndDate\": null,\n            \"fullName\": \"001-Sirine\",\n            \"exTaxTotal\": \"0.00\",\n            \"shipmentMode\": null,\n            \"versionNumber\": 1,\n            \"amountInvoiced\": \"0.00\",\n            \"confirmedByUser\": null,\n            \"deliveryState\": 1,\n            \"interco\": false\n        }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://replacewithAxelorAdress:replacewithAxelorPort/ws/rest/com.axelor.apps.sale.db.SaleOrder",
+							"protocol": "http",
+							"host": [
+								replacewithAxelorAdress
+							],
+							"port": "replacewithAxelorPort",
+							"path": [
+								"ws",
+								"rest",
+								"com.axelor.apps.sale.db.SaleOrder"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "X-CSRF-Token",
+								"type": "text",
+								"value": "7B06EB5C4D695C6B1ACDC51A51875EB3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"status\": 0,\n    \"data\": \n        {\n            \"carrierPartner\": null,\n            \"expectedRealisationDate\": null,\n            \"periodicityTypeSelect\": 2,\n            \"mainInvoicingAddressStr\": \"\",\n            \"deliveryCondition\": null,\n            \"deliveryAddress\": null,\n            \"nextInvoicingEndPeriodDate\": null,\n            \"salemanUser\": {\n                \"code\": \"admin\",\n                \"fullName\": \"Admin\",\n                \"id\": 1,\n                \"$version\": 3\n            },\n            \"id\":102,\n            \"opportunity\": null,\n            \"updatedOn\": \"2021-06-03T08:19:17.723Z\",\n            \"companyCostTotal\": \"0.00\",\n            \"version\": 5,\n            \"attrs\": \"{}\",\n            \"isToPrintLineSubTotal\": false,\n            \"externalReference\": null,\n            \"invoicedFirstDate\": null,\n            \"template\": false,\n            \"currentContractPeriodEndDate\": null,\n            \"confirmationDateTime\": \"2021-06-03T06:19:04.745Z\",\n            \"saleOrderSeq\": \"009\",\n            \"stockLocation\": null,\n            \"advancePaymentList\": [],\n            \"createdByInterco\": false,\n            \"numberOfPeriods\": 1,\n            \"contractPeriodInMonths\": 0,\n            \"createdOn\": \"2021-06-01T06:19:01.483Z\",\n            \"timetableList\": [],\n            \"saleOrderScheduleLineList\": [],\n            \"cancelReasonStr\": null,\n            \"isIspmRequired\": false,\n            \"currency\": {\n                \"code\": \"AUD\",\n                \"name\": \"Australian Dollar\",\n                \"id\": 8,\n                \"$version\": 0\n            },\n            \"contactPartner\": null,\n            \"cancelReason\": null,\n            \"deliveryDate\": null,\n            \"totalCostPrice\": \"12.00\",\n            \"tradingName\": null,\n            \"blockedOnCustCreditExceed\": false,\n            \"subscriptionComment\": null,\n            \"stockMoveList\": [],\n            \"hideDiscount\": false,\n            \"team\": null,\n            \"companyBankDetails\": null,\n            \"statusSelect\": 4,\n            \"standardDelay\": 0,\n            \"importId\": null,\n            \"specificNotes\": \"\",\n            \"manualUnblock\": false,\n            \"internalNote\": null,\n            \"saleOrderLineTaxList\": [],\n            \"orderNumber\": null,\n            \"isNeedingConformityCertificate\": false,\n            \"companyExTaxTotal\": \"16.00\",\n            \"advanceTotal\": \"0.00\",\n            \"taxTotal\": \"0.00\",\n            \"project\": null,\n            \"totalGrossMargin\": \"4.00\",\n            \"noticePeriodInDays\": 0,\n            \"productionNote\": null,\n            \"hasSubLineDefaultValue\": false,\n            \"freightCarrierMode\": null,\n            \"selected\": false,\n            \"isTacitAgreement\": false,\n            \"inTaxTotal\": \"16.00\",\n            \"orderBeingEdited\": false,\n            \"updatedBy\": {\n                \"code\": \"admin\",\n                \"fullName\": \"Admin\",\n                \"id\": 1,\n                \"$version\": 3\n            },\n            \"markup\": \"33.00\",\n            \"contractStartDate\": null,\n            \"subscriptionText\": null,\n            \"nextInvoicingDate\": null,\n            \"creationDate\": \"2021-06-01\",\n            \"mainInvoicingAddress\": null,\n            \"saleOrderLineList\": [],\n            \"templateUser\": null,\n            \"clientPartner\": {\n                \"fullName\": \"T000001 - Sirine TRABELSI\",\n                \"id\": 1,\n                \"$version\": 23\n            },\n            \"electronicSignature\": null,\n            \"incoterm\": null,\n            \"saleOrderTypeSelect\": 1,\n            \"endOfValidityDate\": null,\n            \"orderDate\": null,\n            \"amountToBeSpreadOverTheTimetable\": \"16.00\",\n            \"importOrigin\": null,\n            \"nextInvPeriodStartDate\": null,\n            \"description\": null,\n            \"forwarderPartner\": null,\n            \"inAti\": false,\n            \"batchSet\": [],\n            \"priceList\": null,\n            \"duration\": null,\n            \"marginRate\": \"25.00\",\n            \"printingSettings\": null,\n            \"directOrderLocation\": false,\n            \"company\": {\n                \"code\": \"14651146152465\",\n                \"name\": \"Portainer\",\n                \"id\": 1,\n                \"$version\": 2\n            },\n            \"deliveryAddressStr\": \"\",\n            \"shipmentDate\": null,\n            \"accountedRevenue\": \"16.00\",\n            \"nextInvoicingStartPeriodDate\": null,\n            \"paymentCondition\": null,\n            \"paymentMode\": null,\n            \"specificPackage\": null,\n            \"contractEndDate\": null,\n            \"fullName\": \"009-Sirine\",\n            \"exTaxTotal\": \"16.00\",\n            \"shipmentMode\": null,\n            \"versionNumber\": 1,\n            \"amountInvoiced\": \"0.00\",\n            \"confirmedByUser\": {\n                \"code\": \"admin\",\n                \"fullName\": \"Admin\",\n                \"id\": 1,\n                \"$version\": 3\n            },\n            \"createdBy\": {\n                \"code\": \"admin\",\n                \"fullName\": \"Admin\",\n                \"id\": 1,\n                \"$version\": 3\n            },\n            \"deliveryState\": 1,\n            \"interco\": false\n        }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://replacewithAxelorAdress:replacewithAxelorPort/ws/rest/com.axelor.apps.sale.db.SaleOrder",
+							"protocol": "http",
+							"host": [
+								replacewithAxelorAdress
+							],
+							"port": "replacewithAxelorPort",
+							"path": [
+								"ws",
+								"rest",
+								"com.axelor.apps.sale.db.SaleOrder"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "com.axelor.apps.base.db.Product",
+			"item": [
+				{
+					"name": "CREATE",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "X-Requested-With",
+								"type": "text",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "X-CSRF-Token",
+								"type": "text",
+								"value": "E353B9D8A5744EEACA67EF1EC31274F0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"data\": \n        {\n            \"grossMass\": \"0.000\",\n            \"procurementMethodSelect\": \"buy\",\n            \"isModel\": false,\n            \"endDate\": null,\n            \"isFromConfigurator\": false,\n            \"deductLunchVoucher\": false,\n            \"lastProductionPrice\": \"0.0000000000\",\n            \"isAnalyticCapture\": false,\n            \"purchasesUnit\": null,\n            \"barcodeTypeConfig\": null,\n            \"height\": \"0.00\",\n            \"packLines\": [],\n            \"updatedOn\": \"2021-06-02T15:02:14.555Z\",\n            \"customerCatalogList\": [],\n            \"attrs\": \"{\\\"Color\\\": \\\"152\\\"}\",\n            \"excludeFromMrp\": false,\n            \"productStandard\": null,\n            \"inventoryTypeSelect\": 0,\n            \"isShippingCostsProduct\": false,\n            \"productSubTypeSelect\": 0,\n            \"checkExpirationDateAtStockMoveRealization\": false,\n            \"productApproval\": null,\n            \"customsCodeNomenclature\": null,\n            \"startDate\": \"2021-05-31\",\n            \"defShipCoefByPartner\": false,\n            \"supplierDeliveryTime\": 0,\n            \"avgPrice\": \"0.0000000000\",\n            \"productVariantConfig\": null,\n            \"perishableNbrOfMonths\": 0,\n            \"isUnrenewed\": false,\n            \"trackingNumberConfiguration\": null,\n            \"purchaseCurrency\": {\n                \"code\": \"AUD\",\n                \"name\": \"Australian Dollar\",\n                \"id\": 8,\n                \"$version\": 0\n            },\n            \"createdOn\": \"2021-05-31T09:09:50.542Z\",\n            \"massUnit\": null,\n            \"accountManagementList\": [],\n            \"manufOrderCompValuMethodSelect\": 1,\n            \"parentProduct\": null,\n            \"costSheetGroup\": null,\n            \"productTypeSelect\": \"storable\",\n            \"isActivity\": false,\n            \"economicManufOrderQty\": \"0.00\",\n            \"warrantyNbrOfMonths\": 0,\n            \"taskTemplateList\": [],\n            \"salePrice\": \"15.0000000000\",\n            \"costPrice\": \"12.0000000000\",\n            \"articleVolume\": \"0.00\",\n            \"controlOnReceipt\": false,\n            \"picture\": {\n                \"fileName\": \"png-transparent-react-logo-npm-javascript-package-manager-nodejs-github-installation-yarn-thumbnail.png\",\n                \"id\": 36,\n                \"$version\": 0\n            },\n            \"standardDelay\": 0,\n            \"importId\": null,\n            \"stockManaged\": true,\n            \"defaultBillOfMaterial\": null,\n            \"purchaseProductMultipleQtyList\": [],\n            \"width\": \"0.00\",\n            \"realOrEstimatedPriceSelect\": 1,\n            \"isPerishable\": false,\n            \"purchasable\": true,\n            \"managPriceCoef\": \"1.00\",\n            \"purchasePrice\": \"15.0000000000\",\n            \"hasWarranty\": false,\n            \"mrpFamily\": null,\n            \"personalExpense\": false,\n            \"diameter\": \"0.00\",\n            \"isPrototype\": false,\n            \"allowToForcePurchaseQty\": false,\n            \"selected\": false,\n            \"versionSelect\": 0,\n            \"serialNumber\": null,\n            \"updatedBy\": {\n                \"code\": \"admin\",\n                \"fullName\": \"Admin\",\n                \"id\": 1,\n                \"$version\": 3\n            },\n            \"defaultSupplierPartner\": null,\n            \"expense\": false,\n            \"barCode\": null,\n            \"internalDescription\": null,\n            \"sequence\": null,\n            \"costTypeSelect\": 1,\n            \"unit\": null,\n            \"packPriceSelect\": 0,\n            \"productVariant\": null,\n            \"salesUnit\": null,\n            \"lengthUnit\": null,\n            \"name\": \"Anger\",\n            \"blockExpenseTax\": false,\n            \"productFamily\": null,\n            \"usedInDEB\": false,\n            \"importOrigin\": null,\n            \"code\": \"001858545554\",\n            \"unavailableToUsers\": false,\n            \"description\": null,\n            \"inAti\": false,\n            \"sellable\": true,\n            \"autoUpdateSalePrice\": true,\n            \"productCategory\": null,\n            \"supplierCatalogList\": [],\n            \"saleProductMultipleQtyList\": [],\n            \"saleSupplySelect\": 1,\n            \"shippingCoef\": \"0.00\",\n            \"length\": \"0.00\",\n            \"fullName\": \"[001514684654] Anger\",\n            \"allowToForceSaleQty\": false,\n            \"manageVariantPrice\": false,\n            \"bomCompValuMethodSelect\": 2,\n            \"saleCurrency\": {\n                \"code\": \"AUD\",\n                \"name\": \"Australian Dollar\",\n                \"id\": 8,\n                \"$version\": 0\n            },\n            \"configurator\": null,\n            \"createdBy\": {\n                \"code\": \"admin\",\n                \"fullName\": \"Admin\",\n                \"id\": 1,\n                \"$version\": 3\n            },\n            \"countryOfOrigin\": null,\n            \"netMass\": \"0.000\"\n        }\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://replacewithAxelorAdress:replacewithAxelorPort/ws/rest/com.axelor.apps.base.db.Product",
+							"protocol": "http",
+							"host": [
+								replacewithAxelorAdress
+							],
+							"port": "replacewithAxelorPort",
+							"path": [
+								"ws",
+								"rest",
+								"com.axelor.apps.base.db.Product"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "X-Requested-With",
+								"type": "text",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "X-CSRF-Toke",
+								"type": "text",
+								"value": "E353B9D8A5744EEACA67EF1EC31274F0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"data\": \n        {\n            \"grossMass\": \"0.000\",\n            \"procurementMethodSelect\": \"buy\",\n            \"isModel\": false,\n            \"endDate\": null,\n            \"isFromConfigurator\": false,\n            \"deductLunchVoucher\": false,\n            \"lastProductionPrice\": \"0.0000000000\",\n            \"isAnalyticCapture\": false,\n            \"purchasesUnit\": null,\n            \"barcodeTypeConfig\": null,\n            \"height\": \"0.00\",\n            \"packLines\": [],\n            \"updatedOn\": \"2021-06-02T15:02:14.555Z\",\n            \"customerCatalogList\": [],\n            \"attrs\": \"{\\\"Color\\\": \\\"152\\\"}\",\n            \"excludeFromMrp\": false,\n            \"productStandard\": null,\n            \"inventoryTypeSelect\": 0,\n            \"isShippingCostsProduct\": false,\n            \"productSubTypeSelect\": 0,\n            \"checkExpirationDateAtStockMoveRealization\": false,\n            \"productApproval\": null,\n            \"customsCodeNomenclature\": null,\n            \"startDate\": \"2021-05-31\",\n            \"defShipCoefByPartner\": false,\n            \"supplierDeliveryTime\": 0,\n            \"avgPrice\": \"0.0000000000\",\n            \"productVariantConfig\": null,\n            \"perishableNbrOfMonths\": 0,\n            \"isUnrenewed\": false,\n            \"trackingNumberConfiguration\": null,\n            \"purchaseCurrency\": {\n                \"code\": \"AUD\",\n                \"name\": \"Australian Dollar\",\n                \"id\": 8,\n                \"$version\": 0\n            },\n            \"createdOn\": \"2021-05-31T09:09:50.542Z\",\n            \"massUnit\": null,\n            \"accountManagementList\": [],\n            \"manufOrderCompValuMethodSelect\": 1,\n            \"parentProduct\": null,\n            \"costSheetGroup\": null,\n            \"productTypeSelect\": \"storable\",\n            \"isActivity\": false,\n            \"economicManufOrderQty\": \"0.00\",\n            \"warrantyNbrOfMonths\": 0,\n            \"taskTemplateList\": [],\n            \"salePrice\": \"15.0000000000\",\n            \"costPrice\": \"12.0000000000\",\n            \"articleVolume\": \"0.00\",\n            \"controlOnReceipt\": false,\n            \"picture\": {\n                \"fileName\": \"png-transparent-react-logo-npm-javascript-package-manager-nodejs-github-installation-yarn-thumbnail.png\",\n                \"id\": 36,\n                \"$version\": 0\n            },\n            \"standardDelay\": 0,\n            \"importId\": null,\n            \"stockManaged\": true,\n            \"defaultBillOfMaterial\": null,\n            \"purchaseProductMultipleQtyList\": [],\n            \"width\": \"0.00\",\n            \"realOrEstimatedPriceSelect\": 1,\n            \"isPerishable\": false,\n            \"purchasable\": true,\n            \"managPriceCoef\": \"1.00\",\n            \"purchasePrice\": \"15.0000000000\",\n            \"hasWarranty\": false,\n            \"mrpFamily\": null,\n            \"personalExpense\": false,\n            \"diameter\": \"0.00\",\n            \"isPrototype\": false,\n            \"allowToForcePurchaseQty\": false,\n            \"selected\": false,\n            \"versionSelect\": 0,\n            \"serialNumber\": null,\n            \"updatedBy\": {\n                \"code\": \"admin\",\n                \"fullName\": \"Admin\",\n                \"id\": 1,\n                \"$version\": 3\n            },\n            \"defaultSupplierPartner\": null,\n            \"expense\": false,\n            \"barCode\": null,\n            \"internalDescription\": null,\n            \"sequence\": null,\n            \"costTypeSelect\": 1,\n            \"unit\": null,\n            \"packPriceSelect\": 0,\n            \"productVariant\": null,\n            \"salesUnit\": null,\n            \"lengthUnit\": null,\n            \"name\": \"Anger\",\n            \"blockExpenseTax\": false,\n            \"productFamily\": null,\n            \"usedInDEB\": false,\n            \"importOrigin\": null,\n            \"code\": \"0015845554\",\n            \"unavailableToUsers\": false,\n            \"description\": null,\n            \"inAti\": false,\n            \"sellable\": true,\n            \"autoUpdateSalePrice\": true,\n            \"productCategory\": null,\n            \"supplierCatalogList\": [],\n            \"saleProductMultipleQtyList\": [],\n            \"saleSupplySelect\": 1,\n            \"shippingCoef\": \"0.00\",\n            \"length\": \"0.00\",\n            \"fullName\": \"[001514684654] Anger\",\n            \"allowToForceSaleQty\": false,\n            \"manageVariantPrice\": false,\n            \"bomCompValuMethodSelect\": 2,\n            \"saleCurrency\": {\n                \"code\": \"AUD\",\n                \"name\": \"Australian Dollar\",\n                \"id\": 8,\n                \"$version\": 0\n            },\n            \"configurator\": null,\n            \"createdBy\": {\n                \"code\": \"admin\",\n                \"fullName\": \"Admin\",\n                \"id\": 1,\n                \"$version\": 3\n            },\n            \"countryOfOrigin\": null,\n            \"netMass\": \"0.000\"\n        }\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://replacewithAxelorAdress:replacewithAxelorPort/ws/rest/com.axelor.apps.base.db.Product/3",
+							"protocol": "http",
+							"host": [
+								replacewithAxelorAdress
+							],
+							"port": "replacewithAxelorPort",
+							"path": [
+								"ws",
+								"rest",
+								"com.axelor.apps.base.db.Product",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "X-Requested-With",
+								"type": "text",
+								"value": "XMLHttpRequest"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"admin\",\n  \"password\" : \"admin\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://replacewithAxelorAdress:replacewithAxelorPort/ws/rest/com.axelor.apps.base.db.Product/1",
+							"protocol": "http",
+							"host": [
+								replacewithAxelorAdress
+							],
+							"port": "replacewithAxelorPort",
+							"path": [
+								"ws",
+								"rest",
+								"com.axelor.apps.base.db.Product",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ALL",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "X-Requested-With",
+								"type": "text",
+								"value": "XMLHttpRequest"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"admin\",\n  \"password\" : \"admin\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://replacewithAxelorAdress:replacewithAxelorPort/ws/rest/com.axelor.apps.base.db.Product",
+							"protocol": "http",
+							"host": [
+								replacewithAxelorAdress
+							],
+							"port": "replacewithAxelorPort",
+							"path": [
+								"ws",
+								"rest",
+								"com.axelor.apps.base.db.Product"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "com.axelor.apps.sale.db.SaleOrderLine",
+			"item": [
+				{
+					"name": "GET ALL",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"admin\",\n  \"password\" : \"admin\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://replacewithAxelorAdress:replacewithAxelorPort/ws/rest/com.axelor.apps.sale.db.SaleOrder",
+							"protocol": "http",
+							"host": [
+								replacewithAxelorAdress
+							],
+							"port": "replacewithAxelorPort",
+							"path": [
+								"ws",
+								"rest",
+								"com.axelor.apps.sale.db.SaleOrder"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"admin\",\n  \"password\" : \"admin\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://replacewithAxelorAdress:replacewithAxelorPort/ws/rest/com.axelor.apps.sale.db.SaleOrder/39",
+							"protocol": "http",
+							"host": [
+								replacewithAxelorAdress
+							],
+							"port": "replacewithAxelorPort",
+							"path": [
+								"ws",
+								"rest",
+								"com.axelor.apps.sale.db.SaleOrder",
+								"39"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "com.axelor.meta.db.MetaModel",
+			"item": [
+				{
+					"name": "GET ALL",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"admin\",\n  \"password\" : \"admin\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://replacewithAxelorAdress:replacewithAxelorPort/ws/rest/com.axelor.meta.db.MetaModel",
+							"protocol": "http",
+							"host": [
+								replacewithAxelorAdress
+							],
+							"port": "replacewithAxelorPort",
+							"path": [
+								"ws",
+								"rest",
+								"com.axelor.meta.db.MetaModel"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "X-Requested-With",
+								"type": "text",
+								"value": "XMLHttpRequest"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"admin\",\n  \"password\" : \"admin\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://replacewithAxelorAdress:replacewithAxelorPort/ws/rest/com.axelor.meta.db.MetaModel/3077",
+							"protocol": "http",
+							"host": [
+								replacewithAxelorAdress
+							],
+							"port": "replacewithAxelorPort",
+							"path": [
+								"ws",
+								"rest",
+								"com.axelor.meta.db.MetaModel",
+								"3077"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"admin\",\n  \"password\" : \"admin\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://replacewithAxelorAdress:replacewithAxelorPort/login.jsp",
+					"protocol": "http",
+					"host": [
+						"172",
+						"16",
+						"0",
+						"57"
+					],
+					"port": "replacewithAxelorPort",
+					"path": [
+						"login.jsp"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"admin\",\n  \"password\" : \"admin\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://replacewithAxelorAdress:replacewithAxelorPort/login.jsp",
+							"protocol": "http",
+							"host": [
+								replacewithAxelorAdress
+							],
+							"port": "replacewithAxelorPort",
+							"path": [
+								"login.jsp"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.15.9"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Jun 2021 12:51:20 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
